@@ -1,0 +1,420 @@
+
+.flex{
+    display: flex;    
+}
+
+.tac{
+    text-align: center;
+}
+
+.blue-btn{
+    background-color: rgb(4, 157, 245);
+    padding: 8px 20px;
+    border: none;
+    border-radius: 30px;
+    color: white;
+}
+
+.blue-btn-c{
+    background-color: rgb(4, 157, 245);
+    padding: 5px 5px;
+    border: none;
+    border-radius: 30px;
+    color: white;
+}
+
+.black-btn{
+    background-color: black;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 30px;
+    color: white;
+}
+
+.red-btn{
+    background-color: rgb(245, 4, 96);
+    padding: 8px 20px;
+    border: none;
+    border-radius: 30px;
+    color: white;
+}
+
+.orange-btn{
+    background-color: orange;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 30px;
+    color: black;
+}
+
+.col-orange{
+    color: orange;
+}
+
+.text-red{
+    color: red;
+    text-decoration: line-through;
+}
+.blue-text{
+    font-style: italic;
+    font-size: 20px;
+    line-height: 0.4em;
+    color: rgb(4, 157, 245);
+    font-size: 30px;
+}
+
+.pos-rel{
+    position: relative;
+}
+
+.pos-abs{
+    position: absolute;
+}
+
+h2{
+    text-align: center;
+    font-size: 40px;
+    line-height: 0.2em;
+}
+
+
+
+/* Header */
+.header{
+    width: 100%;
+}
+.top-nav{
+    background-color: black;
+    color: white;
+}
+
+.header .top-nav{
+    justify-content: space-between;
+    height: 50px;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.top-nav-l{
+    justify-content: space-between;
+    height: 50px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.top-nav-l span{
+    margin: 0 25px 0 10px;
+}
+
+.header .top-nav ul{
+    list-style-type: none;
+}
+
+.header .top-nav ul li{
+    margin: 0 10px;
+}
+
+.hamburger-menu{
+    display: none;
+}
+
+.bg{
+    background-image: url(/img/hero/h1_hero.jpg);
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.bg h1{
+    font-size: 90px;
+    display: inline;
+    line-height: 1em;
+}
+
+.header .nav{
+    justify-content: space-between;
+    height: 80px;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.header .nav ul{
+    list-style-type: none;
+}
+
+.header .nav ul li{
+    margin: 0 10px;
+}
+
+.nav-right{
+    flex-direction: row;
+    align-items: center;
+}
+
+.blue-btn-c{
+    top: -8px;
+    right: 0;
+}
+.nav-right .icon-heart i,
+.nav-right .icon-shopping-cart i,
+.nav-right .search-box,
+.nav-right .search-icon {
+    border: 1px solid gray;
+    padding: 8px;
+    border-radius: 50%;
+    margin: 0 15px;
+}
+
+.nav-right .blue-btn {
+    margin: 0 15px;
+}
+
+.nav-right .search-box{
+    border-radius: 20px;
+}
+
+.nav-right .search-icon{
+    padding: 6px;
+    border: none;
+    right: 3px;
+    top: 3px;
+}
+
+.header .red-btn{
+    padding: 3px 10px;
+    right: -20px;
+    top: -25px; 
+}
+
+
+
+/* End Header */
+
+
+/* Section 1 */
+.section1{
+    margin: 130px 0;
+    width: 100vw;
+
+}
+
+.sec1-img{
+    margin: 0 50px;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.section1 .pos-abs{
+    right: 5%;
+    top: 15%; 
+}
+/* End Section 1 */
+
+
+
+/*  Section 2 */
+.section2{
+    width: 60vw;
+    margin: 150px 20% 0 20%;
+}
+
+.sec2-nav{
+    justify-content: space-between;
+    height: 80px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.sec2-nav ul{
+    list-style-type: none;
+}
+
+.sec2-nav ul li{
+    margin: 0 10px;
+}
+.sec2-img{
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.new-icon{
+    left: 5%;
+    top: 5%; 
+}
+
+ .text-red-all{
+    color: red;
+    text-decoration: none;
+}
+
+/* End Section 2 */
+
+
+
+
+
+/* Section 3 */
+.section3{
+    background-image: url(/img/categori/card.png);
+    background-size: cover;
+    background-position: right;
+    align-items: center;
+    padding: 0 10%;
+    margin: 200px 50px 0 50px;
+    height: 600px;
+}
+
+.card-man{
+    bottom: 0;
+    left: 20%;
+}
+
+.card-shop{
+    bottom: 10%;
+    right: 20%;
+    z-index: 1;
+}
+
+.sec3-text,
+.sec3-text,h2{
+    text-align: left;
+    bottom: 25%;
+    left: 40%;
+}
+
+.sec3-card{
+    bottom: 0;
+}
+/* End Section 3 */
+
+
+
+/* Section 4 */
+.section4{
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: flex-end;
+    margin: 150px 20% 0 20%;
+}
+
+.collection1{
+    margin-top: 50%;
+}
+
+.sec4-img .flex{
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.sec4-img .flex{
+    margin: 25px 0;
+}
+
+.sec4-img p, button{
+    text-align: right;
+}
+/* End Section 4 */
+
+
+
+/* Section 5 */
+.section5{
+    background-image: url(/img/collection/latest-offer.png);
+    background-size: cover;
+    background-position: right;
+    padding: 0 10%;
+    margin: 200px 50px 0 50px;
+    height: 400px;
+}
+
+.sec5-man{
+    bottom: -70px;
+    left: 20px;
+}
+
+.sec5-text,
+.sec5-text,h2{
+    bottom: 30%;
+    left: 25%;
+}
+
+.subscribe{
+    text-align: left;
+    bottom: 40%;
+    right: 25%;
+}
+
+.sub-box{
+    padding: 8px;
+    border-radius: 20px;
+    border: none;
+    margin: -20px;
+    width: 250px;
+}
+/* End Section 5 */
+
+
+
+/* Section 6 */
+.section6{
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    margin: 150px 20% 0 20%;
+}
+
+.section6 .sec6-text{
+    line-height: 1.5em;
+    padding: 0 80px;
+    color: rgba(0, 0, 0, 0.678);
+}
+/* End Section 6 */
+
+
+
+/* Section 7 */
+.section7 img{
+    width: 45vw;
+    margin: 150px 0;
+}
+/* End Section 7 */
+
+
+
+
+/* Section 8 */
+.section8{
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    margin: 150px 20% 0 20%;
+}
+
+.section8 .sec8-text{
+    line-height: 1.5em;
+    padding: 0 80px;
+    color: rgba(0, 0, 0, 0.678);
+}
+/* End Section 8 */
+
+/* Footer */
+.footer{
+    margin: 60px 20%;
+    padding: 0 80px;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.678);
+}
+
+.footer span{
+    color: rgb(4, 157, 245);
+}
+/* End Footer */
+

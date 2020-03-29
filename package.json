@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "serve": "live-server"
+    "serve": "live-server",
+
+   // "sass": "node-sass -w sourc/scss/ -o styles/",
+   
   },
   "author": "",
   "license": "ISC",

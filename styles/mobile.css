@@ -1,0 +1,248 @@
+
+
+h2{
+    text-align: center;
+    font-size: 25px;
+}
+/* Header */
+.header .top-nav, 
+.search-box,
+.main-nav,
+.search-icon,
+.icon-heart,
+.nav .blue-btn{
+    display: none;
+}
+
+.hamburger-menu{
+    display: unset;
+    color: rgb(241, 8, 47);
+    margin: 0 0 0 20px;
+    font-size: 30px;
+}
+
+.bg{
+    height: 300px;
+}
+
+.bg img{
+    display: none;
+}
+
+
+.bg div h1{
+    font-size: 50px;
+}
+/* End Header */
+
+
+/* Section 1 */
+.section1{
+    margin: 70px 10px;
+    position: unset;
+}
+
+.section1 .sec1-img{
+    display: unset;
+}
+
+.sec1-img img{
+    height: 50vw;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.sec1-img .card1 .sec1-text,
+.sec1-img .card2 .sec1-text,
+.sec1-img .card3 .sec1-text{
+    float: right;
+    right: 20px;
+    top: 25%;
+    text-align: center;
+    font-size: unset;
+}
+
+.sec1-text .blue-text {
+    font-size: unset;
+}
+
+.card1 div .blue-text,
+.card3 div .blue-text {
+    bottom: 15px;
+    text-shadow:white 0 -2px 3px;
+}
+/* End Section 1 */
+
+
+
+
+
+
+/*  Section 2 */
+.section2{
+    display: unset;
+    margin: 70px 10px;
+}
+
+.sec2-nav{
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: left;
+}
+
+.sec2-img{
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+.sec2-img div{
+
+    margin: 10px 0;
+}
+/* End Section 2 */
+
+
+
+
+
+/* Section 3 */
+.section3{
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    padding: unset;
+    margin: 0 10px;
+    height: 230px;
+}
+
+.card-man,
+.card-shop{
+    display: none;
+}
+
+.sec3-text,
+.sec3-text,h2{
+    text-align: left;
+    bottom: 20%;
+    left: 5%;
+}
+
+/* End Section 3 */
+
+
+
+/* Section 4 */
+.section4{
+    display: unset;
+    margin: 70px 10px;
+}
+
+.sec4-text,
+.sec4-img{
+    margin: 20px;
+}
+.collection1,
+.collection2{
+    display: none;
+}
+
+.sec4-img .flex{
+    justify-content: flex-start;
+    margin: 10px 0;
+}
+
+.sec4-img p, 
+.sec4-img button{
+    text-align: right;
+    width: 130px;
+    margin: 0 20px;
+}
+/* End Section 4 */
+
+
+
+/* Section 5 */
+.section5{
+    background-position: left;
+    padding: unset;
+    margin: 20px 10px;
+    height: 200px;
+}
+
+.sec5-man{
+    display: none;
+}
+
+.sec5-text,
+.sec5-text,h2{
+    bottom: 35%;
+    left: 10px;
+}
+
+.sub-box{
+    width: 180px;
+    margin: 10px -50px;
+}
+
+.subscribe{
+    text-align: left;
+    bottom: 15%;
+    right: 10px;
+}
+
+/* End Section 5 */
+
+
+
+/* Section 6 */
+.section6{
+    display: unset;
+    margin: 0 10px;
+}
+
+.section6 .sec6-text{
+    padding: 10px;
+    margin: 10px;
+}
+/* End Section 6 */
+
+
+
+/* Section 7 */
+.section7{
+    flex-wrap: wrap;
+}
+
+.section7 img{
+    width: 50vw;
+    margin: 0;
+}
+/* End Section 7 */
+
+
+
+
+/* Section 8 */
+.section8{
+    flex-direction: column;
+    margin: unset;
+    margin-top: 30px;
+}
+
+.section8 .sec8-text{
+    padding: 10px;
+    margin: unset;
+    margin: 0 10px;
+}
+/* End Section 8 */
+
+/* Footer */
+.footer{
+    display: unset;
+}
+
+.footer p, .media{
+    margin: 10px 20px;
+} 
+/* End Footer */
