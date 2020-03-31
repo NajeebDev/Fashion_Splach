@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="/node_modules/normalize.css/normalize.css">
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="stylesheet" href="styles/mobile.css" media="screen and (max-width:767px)">
-    <link rel="stylesheet" href="styles/tablet.css" media="(min-width: 768px) and (max-width: 1024px)"> 
+    <link rel="stylesheet" href="styles/tablet.css" media="(min-width: 768px) and (max-width: 1199px)"> 
+    <link rel="stylesheet" href="styles/menu.css"> 
     <title>Fashion Splash!</title>
 </head>
 
@@ -21,8 +22,9 @@
         <div class="top-nav flex">
             <div class="top-nav-l flex">
                 <img src="/img/icon/header_icon.png" alt="">
-                <span> USA  </span>
-                <p>+5465 4654 56546</p>
+                <span class="region-flag"> USA  </span>
+                <span class="region-dropdown"></span>
+                <span class="region-telephone">+5465 4654 56546</span>
             </div>
             <div class="top-nav-r flex">
                 <ul class="flex">
@@ -39,7 +41,7 @@
             <img src="/img/logo/logo.png" alt="">
             <ul class="main-nav flex">
                 <li>Home</li>
-                <li>Catagori</li>
+                <li>Catagories</li>
                 <div class="nav-latest pos-rel">
                     <li>Latest</li>
                     <button class="red-btn pos-abs">Hot</button>
@@ -64,7 +66,8 @@
 
                 <button class="blue-btn">Sign In</button>
 
-                <i class="hamburger-menu fas fa-bars"></i>
+
+                <i class="hamburger-menu navicon fas fa-bars" for="menu-btn"></i>
 
             </div>
         </div>
@@ -88,7 +91,7 @@
     <main>
         <section class="section1">
             <h2 class="tac">Shop by Category</h2>
-            <div class="sec1-img flex">
+            <div class="sec1-img ">
                 <div class="card1 pos-rel">
                     <img src="/img/categori/cat1.jpg" alt="">
                     <div class="sec1-text pos-abs">
@@ -319,15 +322,15 @@
 
 
         <section class="section7 flex">
-            <img src="/img/gallery/gallery1.jpg" alt="">
-            <img src="/img/gallery/gallery2.jpg" alt="">
-            <img src="/img/gallery/gallery3.jpg" alt="">
-            <img src="/img/gallery/gallery4.jpg" alt="">
-            <img src="/img/gallery/gallery5.jpg" alt="">
+                <img src="/img/gallery/gallery1.jpg" alt="">
+                <img src="/img/gallery/gallery2.jpg" alt="">
+                <img src="/img/gallery/gallery3.jpg" alt="">
+                <img src="/img/gallery/gallery4.jpg" alt="">
+                <img src="/img/gallery/gallery5.jpg" alt="">    
         </section>
 
 
-
+        
 
         <section class="section8 flex">
             <div class="sec8-text">

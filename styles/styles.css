@@ -80,9 +80,7 @@ h2{
 
 
 /* Header */
-.header{
-    width: 100%;
-}
+
 .top-nav{
     background-color: black;
     color: white;
@@ -129,7 +127,6 @@ h2{
 
 .bg h1{
     font-size: 90px;
-    display: inline;
     line-height: 1em;
 }
 
@@ -197,19 +194,19 @@ h2{
 /* Section 1 */
 .section1{
     margin: 130px 0;
-    width: 100vw;
-
 }
 
 .sec1-img{
-    margin: 0 50px;
-    flex-wrap: nowrap;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(3, 33.33%);
 }
 
+.sec1-img img{
+    width: 100%;
+}
 .section1 .pos-abs{
     right: 5%;
-    top: 15%; 
+    top: 20%; 
 }
 /* End Section 1 */
 
@@ -374,14 +371,23 @@ h2{
     padding: 0 80px;
     color: rgba(0, 0, 0, 0.678);
 }
+
+.section6 .sec6-text i{
+    font-size: 30px;
+}
+
 /* End Section 6 */
 
 
 
 /* Section 7 */
+.section7{
+    width: 100%;
+    margin-top: 150px;
+    flex-wrap: wrap;
+}
 .section7 img{
-    width: 45vw;
-    margin: 150px 0;
+    margin: 0;
 }
 /* End Section 7 */
 
